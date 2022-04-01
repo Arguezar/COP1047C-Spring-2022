@@ -16,7 +16,7 @@ The program should display the following details:
 • The number of hot dogs that will be left over
 • The number of hot dog buns that will be left over
 
-@author: argue
+@author: Arguez, Arlene
 """
 
 hot_dogs_in_pack =10
