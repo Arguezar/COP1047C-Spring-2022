@@ -43,126 +43,126 @@ if (df.iat[(option),1] != 0):
     else:
         i, d = divmod(df.iat[(option),1], 1)
         if (d != 0):
-                print("\t",int(i),Fraction(d),'\t{:<45}'.format("cup(s) of All-Purpose Flour"))
+            print("\t",int(i),Fraction(d),'\t{:<45}'.format("cup(s) of All-Purpose Flour"))
         else: 
-                print("\t",int(i),'{:<45}'.format("cup(s) of All-Purpose Flour"))
+            print("\t",int(i),'{:<45}'.format("cup(s) of All-Purpose Flour"))
 if (df.iat[(option),2] != 0):
     if (df.iat[(option),2] < 1):
         print("\t",Fraction(df.iat[(option),2]% 1),'{:<45}'.format("tsp of Baking Powder"))
     else:
         i, d = divmod(df.iat[(option),2], 1)
         if (d != 0):
-                print("\t",int(i),Fraction(d),'{:<45}'.format("tsp(s) of Baking Powder"))  
+            print("\t",int(i),Fraction(d),'{:<45}'.format("tsp(s) of Baking Powder"))  
         else: 
-                print("\t",int(i),'{:<45}'.format("tsp(s) of Baking Powder"))
+            print("\t",int(i),'{:<45}'.format("tsp(s) of Baking Powder"))
 if (df.iat[(option),3] != 0):
     if (df.iat[(option),3] < 1):
         print("\t",Fraction(df.iat[(option),3]% 1),'{:<45}'.format("cup of Baking Soda"))
     else:
         i, d = divmod(df.iat[(option),3], 1)
         if (d != 0):
-                print("\t",int(i),Fraction(d),'{:<45}'.format("tcup(s) of Baking Soda"))
+            print("\t",int(i),Fraction(d),'{:<45}'.format("tcup(s) of Baking Soda"))
         else: 
-                print("\t",int(i),'{:<45}'.format("cup(s) of Baking Soda"))
+            print("\t",int(i),'{:<45}'.format("cup(s) of Baking Soda"))
 if (df.iat[(option),4] != 0):
     if (df.iat[(option),4] < 1):
         print("\t",Fraction(df.iat[(option),4]% 1),'{:<40}'.format("cup of Brown Sugar (packed)"))         
     else:
         i, d = divmod(df.iat[(option),4], 1)
         if (d != 0):
-                print("\t",int(i),Fraction(d),'{:<40}'.format("cup(s) of Brown Sugar (packed)")) 
+            print("\t",int(i),Fraction(d),'{:<40}'.format("cup(s) of Brown Sugar (packed)")) 
         else: 
-                print("\t",int(i),'{:<40}'.format("cup(s) of Brown Sugar (packed)"))
+            print("\t",int(i),'{:<40}'.format("cup(s) of Brown Sugar (packed)"))
 if (df.iat[(option),5] != 0):
     if (df.iat[(option),5] < 1):
         print("\t",Fraction(df.iat[(option),5]% 1),'{:<45}'.format("cup of Butter"))
     else:
         i, d = divmod(df.iat[(option),5], 1)
         if (d != 0):
-                print("\t",int(i),Fraction(d),'{:<45}'.format("cup(s) of Butter"))
+            print("\t",int(i),Fraction(d),'{:<45}'.format("cup(s) of Butter"))
         else: 
-                print("\t",int(i),'{:<45}'.format("cup(s) of Butter"))
+            print("\t",int(i),'{:<45}'.format("cup(s) of Butter"))
 if (df.iat[(option),6] != 0):
     if (df.iat[(option),6] < 1):
         print("\t",Fraction(df.iat[(option),6]% 1),'{:<45}'.format("cup of Chocolate Chips"))          
     else:
         i, d = divmod(df.iat[(option),6], 1)
         if (d != 0):
-                print("\t",int(i),Fraction(d),'{:<45}'.format("cup(s) of Chocolate Chips"))  
+            print("\t",int(i),Fraction(d),'{:<45}'.format("cup(s) of Chocolate Chips"))  
         else: 
-                print("\t",int(i),'{:<45}'.format("cup(s) of Chocolate Chips"))
+            print("\t",int(i),'{:<45}'.format("cup(s) of Chocolate Chips"))
 if (df.iat[(option),7] != 0):
     if (df.iat[(option),7] < 1):
         print("\t",Fraction(df.iat[(option),7]% 1),'{:<45}'.format("cup of Chopped Pecans"))          
     else:
         i, d = divmod(df.iat[(option),7], 1)
         if (d != 0):
-                print("\t",int(i),Fraction(d),'{:<45}'.format("cup(s) of Chopped Pecans")) 
+            print("\t",int(i),Fraction(d),'{:<45}'.format("cup(s) of Chopped Pecans")) 
         else: 
-                print("\t",int(i),'{:<45}'.format("cup(s) of Chopped Pecans"))
+            print("\t",int(i),'{:<45}'.format("cup(s) of Chopped Pecans"))
 if (df.iat[(option),8] != 0):
     if (df.iat[(option),8] < 1):
         print("\t",Fraction(df.iat[(option),8]% 1),'{:<45}'.format("of an Egg White"))
     else:
         i, d = divmod(df.iat[(option),8], 1)
         if (d != 0):
-                print("\t",int(i),Fraction(d),'{:<45}'.format("of Egg White(s)"))
+            print("\t",int(i),Fraction(d),'{:<45}'.format("of Egg White(s)"))
         else: 
-                print("\t",int(i),'{:<45}'.format("Egg White(s)"))
+            print("\t",int(i),'{:<45}'.format("Egg White(s)"))
 if (df.iat[(option),9] != 0):
     if (df.iat[(option),9] < 1):
         print("\t",Fraction(df.iat[(option),9]% 1),'{:<45}'.format("of an Egg"))
     else:
         i, d = divmod(df.iat[(option),9], 1)
         if (d != 0):
-                print("\t",int(i),Fraction(d),'{:<45}'.format("\tEgg(s)"))  
+            print("\t",int(i),Fraction(d),'{:<45}'.format("\tEgg(s)"))  
         else: 
-                print("\t",int(i),'{:<45}'.format("\tEgg(s)"))
+            print("\t",int(i),'{:<45}'.format("\tEgg(s)"))
 if (df.iat[(option),10] != 0):
     if (df.iat[(option),10] < 1):
         print("\t",Fraction(df.iat[(option),10]% 1),'{:<45}'.format("cup of Oatmeal"))
     else:
         i, d = divmod(df.iat[(option),10], 1)
         if (d != 0):
-                print("\t",int(i),Fraction(d),'{:<45}'.format("cup(s) of Oatmeal"))
+            print("\t",int(i),Fraction(d),'{:<45}'.format("cup(s) of Oatmeal"))
         else: 
-                print("\t",int(i),'{:<45}'.format("cup(s) of Oatmeal"))
+            print("\t",int(i),'{:<45}'.format("cup(s) of Oatmeal"))
 if (df.iat[(option),11] != 0):
     if (df.iat[(option),11] < 1):
         print("\t",Fraction(df.iat[(option),11]% 1),'{:<45}'.format("cup of Peanut Butter"))
     else:
         i, d = divmod(df.iat[(option),11], 1)
         if (d != 0):
-                print("\t",int(i),Fraction(d),'{:<45}'.format("cup(s) of Peanut Butter"))
+            print("\t",int(i),Fraction(d),'{:<45}'.format("cup(s) of Peanut Butter"))
         else: 
-                print("\t",int(i),'{:<45}'.format("cup(s) of Peanut Butter"))
+            print("\t",int(i),'{:<45}'.format("cup(s) of Peanut Butter"))
 if (df.iat[(option),12] != 0):
     if (df.iat[(option),12] < 1):
         print("\t",Fraction(df.iat[(option),12]% 1),'{:<45}'.format("tsp of Salt"))
     else:
         i, d = divmod(df.iat[(option),12], 1)
         if (d != 0):
-                print("\t",int(i),Fraction(d),'{:<45}'.format("tsp(s) of Salt"))
+            print("\t",int(i),Fraction(d),'{:<45}'.format("tsp(s) of Salt"))
         else: 
-                print("\t",int(i),'{:<45}'.format("tsp(s) of Salt"))
+            print("\t",int(i),'{:<45}'.format("tsp(s) of Salt"))
 if (df.iat[(option),13] != 0):
     if (df.iat[(option),13] < 1):
         print("\t",Fraction(df.iat[(option),13]% 1),'{:<45}'.format("tsp of Vanilla Extract"))
     else:
         i, d = divmod(df.iat[(option),13], 1)
         if (d != 0):
-                print("\t",int(i),Fraction(d),'{:<45}'.format("tsp(s) of Vanilla Extract"))
+            print("\t",int(i),Fraction(d),'{:<45}'.format("tsp(s) of Vanilla Extract"))
         else: 
-                print("\t",int(i),'{:<45}'.format("tsp(s) of Vanilla Extract"))
+            print("\t",int(i),'{:<45}'.format("tsp(s) of Vanilla Extract"))
 if (df.iat[(option),14] != 0):
     if (df.iat[(option),14] < 1):
         print("\t",Fraction(df.iat[(option),14]% 1),'{:<45}'.format("cup of Sugar"))
     else:
         i, d = divmod(df.iat[(option),14], 1)
         if (d != 0):
-                print("\t",int(i),Fraction(d),'{:<45}'.format("cup(s) of Sugar"))
+            print("\t",int(i),Fraction(d),'{:<45}'.format("cup(s) of Sugar"))
         else: 
-                print("\t",int(i),'{:<45}'.format("cup(s) of Sugar"))
+            print("\t",int(i),'{:<45}'.format("cup(s) of Sugar"))
 # Request for batch quantity, requires User input as number, any other character generates value error statement
 while True:
   try:
@@ -177,7 +177,7 @@ while batchQty == 0:
         print("\nGoodbye! Come back when you get a craving for cookies!")
         break
 while  batchQty < 0 or batchQty < 1:
-            print("\033[3m\nDon\'t be Silly! It is not possible to make",batchQty,"\033[3mbatches of Cookies.\x1B[0m")
+            print("\033[3m\nDon\'t be Silly! It is not possible to make",batchQty,"\033[3mbatches of Cookies, that would be a waste of time.\x1B[0m")
             batchQty = float(input("\nHow many batches would you like to make? (minimum 1 batch, 2 for double, etc. or 0 to exit):" ))
     # If batch quantity is equal to or higher than one, prints statement showing Cookie selected, batch quantity entered and updated: Prep Time, Yield amount
 else:
@@ -283,17 +283,18 @@ if (df.iat[(option),11]*batchQty  != 0):
         else:
             i, d = divmod(df.iat[(option),11]*batchQty , 1)
             if (d != 0):
-                    print("\t",int(i),Fraction(d),'{:<45}'.format("cup(s) of Peanut Butter"))
+                print("\t",int(i),Fraction(d),'{:<45}'.format("cup(s) of Peanut Butter"))
             else: 
-                    print("\t",int(i),'{:<45}'.format("cup(s) of Peanut Butter"))
+                print("\t",int(i),'{:<45}'.format("cup(s) of Peanut Butter"))
 if (df.iat[(option),12]*batchQty  != 0):
         if (df.iat[(option),12]*batchQty  < 1):
             print("\t",Fraction(df.iat[(option),12]*batchQty % 1),'{:<45}'.format("tsp of Salt"))
+        else:
             i, d = divmod(df.iat[(option),12]*batchQty , 1)
             if (d != 0):
-                    print("\t",int(i),Fraction(d),'{:<45}'.format("tsp(s) of Salt"))
-            else: 
-                    print("\t",int(i),'{:<45}'.format("tsp(s) of Salt"))
+                print("\t",int(i),Fraction(d),'{:<45}'.format("tsp(s) of Salt"))
+            else:
+                print("\t",int(i),'{:<45}'.format("tsp(s) of Salt"))                  
 if (df.iat[(option),13]*batchQty  != 0):
         if (df.iat[(option),13]*batchQty  < 1):
             print("\t",Fraction(df.iat[(option),13]*batchQty % 1),'{:<45}'.format("tsp of Vanilla Extract"))
